@@ -15,7 +15,7 @@ import {
   homeTemplatesVersionVariantTypes, // Variantes de plantillas para el Home
   textSizesVariantsTypes, // Variantes de tamaño de textos
   loginVariantTypes,
-} from "@hellobuild/blossom-websites-core-package";
+} from "@homecu/blossom-websites-core-package";
 
 import templateVariantSettings from "config";
 

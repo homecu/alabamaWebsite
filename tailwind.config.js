@@ -6,7 +6,7 @@ module.exports = {
     content: [
       "./src/**/*.js",
       "./src/**/*.jsx",
-      "./node_modules/@hellobuild/blossom-websites-core-package/dist/*.js",
+      "./node_modules/@homecu/blossom-websites-core-package/dist/*.js",
     ],
     options: {
       safelist: [
