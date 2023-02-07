@@ -11,12 +11,12 @@ Gatsby project for PPG.
 1. Create `.npmrc` file ([See how to create a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token))
 
    ```
-   @hellobuild:registry=https://npm.pkg.github.com
+   @homecu:registry=https://npm.pkg.github.com
    //npm.pkg.github.com/:_authToken=YOUR_PERSONAL_ACCESS_TOKEN
    ```
 
 1. Install dependencies: `npm install`
-   Link Core Components Package`npm link @hellobuild/blossom-websites-core-package`
+   Link Core Components Package`npm link @homecu/blossom-websites-core-package`
 1. Run on development mode: `npm start`
 
 ## Environments
@@ -47,7 +47,7 @@ Gatsby project for PPG.
    .DYNAMIC_ZONES_PAGE clase 1{}
    .DYNAMIC_ZONES_PAGE clase 3{}
    .LAYOUT_MAIN_CONTACT_US clase 1{}
-   .LAYOUT_MAIN_CONTACT_US clase 4{} 
+   .LAYOUT_MAIN_CONTACT_US clase 4{}
 }
 
 @media only screen(min-width: 1280px){

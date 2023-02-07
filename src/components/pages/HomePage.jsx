@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Page, Hero, Products, Divider, Feature } from "@hellobuild/blossom-websites-core-package";
+import { Page, Hero, Products, Divider, Feature } from "@homecu/blossom-websites-core-package";
 
 function Home({ pageData }) {
   return (

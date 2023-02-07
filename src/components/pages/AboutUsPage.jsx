@@ -5,7 +5,7 @@ import {
   Divider,
   Page,
   PageHeader,
-} from "@hellobuild/blossom-websites-core-package";
+} from "@homecu/blossom-websites-core-package";
 
 function AboutUsPage() {
   return (
