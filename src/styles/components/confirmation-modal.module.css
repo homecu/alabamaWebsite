@@ -1,0 +1,33 @@
+.CONFIRMATION_MODAL__CANCEL_BUTTON {
+  font-size: 14px !important;
+  line-height: 16px !important;
+  color: var(--secondary-color) !important;
+  background: transparent !important;
+  border: 1.5px solid var(--secondary-color) !important;
+  border-radius: 0% !important;
+  height: 44px !important;
+}
+
+.CONFIRMATION_MODAL__CANCEL_BUTTON:hover {
+  color: var(--grayscale-0-color) !important;
+  background: var(--secondary-color) !important;
+}
+
+.CONFIRMATION_MODAL__ACCEPT__BUTTON {
+  font-size: 14px !important;
+  line-height: 16px !important;
+  color: var(--grayscale-0-color) !important;
+  background: var(--secondary-color) !important;
+  border: 1.5px solid var(--secondary-color) !important;
+  border-radius: 0% !important;
+  height: 44px !important;
+}
+
+.CONFIRMATION_MODAL__ACCEPT__BUTTON:hover {
+  color: var(--secondary-color) !important;
+  background: transparent !important;
+}
+
+.CONFIRMATION_MODAL__TEXT {
+  color: var(--grayscale-100-color) !important;
+}

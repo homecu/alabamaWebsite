@@ -1,0 +1,251 @@
+.rich-text-container {
+  padding-left: 27px !important;
+  padding-right: 27px !important;
+}
+
+/* Richtext tables */
+.rich-text-container table thead tr th,
+.rich-text-container table thead tr th * {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #374151 !important;
+  padding: 20px 0px 20px 0 !important;
+}
+
+table thead {
+  border-bottom: 2px solid #374151 !important;
+}
+
+.rich-text-container table tbody tr td,
+.rich-text-container table tbody tr td > * {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  padding: 20px 0px 20px 0 !important;
+}
+
+.rate-list-index-container > h4 > span {
+  color: #374151 !important;
+}
+
+/* Richtext titles styles */
+.rate-list-index-container > p,
+.rate-list-index-container > ol > li,
+.rate-list-index-container > ul > li,
+.rich-text-container > div > figure > table > tbody > tr > td > ul > li,
+.rich-text-container > div > figure > table > tbody > tr > td > ol > li,
+.rich-text-container > div > figure > table > tbody > tr > td > h3,
+.rich-text-container > div > figure > table {
+  font-size: 22px !important;
+  line-height: 28px !important;
+  overflow-wrap: break-word;
+}
+
+.rich-text-container > div > figure > table > tbody > tr > td > p {
+  font-size: 20px !important;
+  line-height: 24px !important;
+}
+
+.rate-list-index-container > h3 > span,
+.rate-list-index-container > h3,
+.rich-text-container > div > figure > table > tbody > tr > td > h3,
+.rich-text-container > div > figure > table > tbody > tr > td > ul > li > h3,
+.rich-text-container > div > figure > table > tbody > tr > td > ol > li > h3,
+.rich-text-container > div > figure > table > tbody > tr > td > ul > li > h3 > span,
+.rich-text-container > div > figure > table > tbody > tr > td > ol > li > h3 > span,
+.PAGE_HEADER_GRADIENT__TEXT__CONTAINER > .PAGEHEADER__TITLE__BOX > .PAGEHEADER__TITLE {
+  font-size: 42px !important;
+  font-family: var(--secondary-family) !important;
+  line-height: 50px !important;
+}
+
+.rate-list-index-container > h2 > span,
+.rate-list-index-container > h2,
+.rich-text-container > div > figure > table > tbody > tr > td > h2,
+.rich-text-container > div > figure > table > tbody > tr > td > ul > li > h2,
+.rich-text-container > div > figure > table > tbody > tr > td > ol > li > h2,
+.rich-text-container > div > figure > table > tbody > tr > td > ul > li > h2 > span,
+.rich-text-container > div > figure > table > tbody > tr > td > ol > li > h2 > span {
+  font-size: 62px !important;
+  font-family: var(--secondary-family) !important;
+  line-height: 78px !important;
+  font-weight: 600 !important;
+}
+
+.rate-list-index-container > h4 > span,
+.rate-list-index-container > h3 > span {
+  color: #374151 !important;
+}
+
+.rate-list-index-container > h4 > span,
+.rate-list-index-container > h4,
+.rich-text-container > div > figure > table > tbody > tr > td > h4,
+.rich-text-container > div > figure > table > tbody > tr > td > ul > li > h4,
+.rich-text-container > div > figure > table > tbody > tr > td > ol > li > h4,
+.rich-text-container > div > figure > table > tbody > tr > td > ul > li > h4 > span,
+.rich-text-container > div > figure > table > tbody > tr > td > ol > li > h4 > span {
+  font-size: 26px !important;
+  font-family: var(--secondary-family) !important;
+  line-height: 39px !important;
+  font-weight: 600 !important;
+}
+
+.RATE_LIST__TITLE {
+  font-size: 26px !important;
+  line-height: 39px !important;
+}
+
+.RATE_LIST__SUBTITLE {
+  color: #374151 !important;
+}
+
+.rate-list-index-container > h4 > a,
+.rate-list-index-container > h3 > a,
+.rate-list-index-container > h2 > a,
+.rate-list-index-container > h1 > a,
+.rate-list-index-container > p > a,
+.rate-list-index-container > ul > li > a,
+.rate-list-index-container > ol > li > a,
+.rate-list-index-container > div > figure > table > tbody > tr > td > p > a,
+.rate-list-index-container > div > figure > table > thead > tr > th > a,
+.rate-list-index-container > div > figure > table > thead > tr > th > p > a,
+.rich-text-container > div > figure > table > thead > tr > th > p > a,
+.rich-text-container > div > figure > table > tbody > tr > td > p > a,
+.rich-text-container > div > figure > table > thead > tr > th > a,
+figure > table > tbody > tr > td > p > a,
+figure > table > tbody > tr > td > a {
+  color: #14528f !important;
+}
+
+.rate-list-index-container p > span {
+  color: #374151 !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 22px !important;
+  line-height: 28px !important;
+}
+.rich-text-container table h4,
+.rich-text-container table p {
+  margin-left: 0 !important;
+}
+
+.MAIN_OFFICE__TITLE__BOX {
+  display: none !important;
+}
+.CONTACT_SIMPLE {
+  margin-top: 0 !important;
+}
+
+.rich-text-container table tbody tr td {
+  padding: 0 !important;
+}
+.rich-text-container table tbody tr td > * {
+  padding: 12px 0 12px 0 !important;
+}
+.BRANCH_EXPANDED__BEFORE_MAIN_OFFICE__CONTAINER__BOX__2 {
+  padding-left: 0% !important;
+}
+
+.LAYOUT_MAIN .VERTICAL_DIVIDER_CONTAINER {
+  height: unset !important;
+}
+
+.LAYOUT_MAIN .VERTICAL_DIVIDER_CONTAINER > .LINE_DIVIDER__CONTAINER {
+  padding-left: 27px !important;
+  padding-right: 27px !important;
+  padding-top: 130px !important;
+  padding-bottom: 50px !important;
+}
+
+.LAYOUT_MAIN .rich-text-container {
+  padding-top: 110px !important;
+}
+
+.LINE_DIVIDER__ON {
+  background: var(--primary-150-color) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .LAYOUT_MAIN .rich-text-container {
+    padding-top: 70px !important;
+  }
+  .LAYOUT_MAIN .VERTICAL_DIVIDER_CONTAINER {
+    display: none !important;
+  }
+  .rate-list-index-container table tbody tr {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .rate-list-index-container > p:nth-child(6),
+  .rate-list-index-container > p:nth-child(7) {
+    display: none !important;
+  }
+
+  figure > table > tbody > tr:nth-child(2) > td:nth-child(1),
+  figure > table > tbody > tr:nth-child(3) > td:nth-child(1) {
+    border-bottom: none !important;
+  }
+
+  .rich-text-container table tbody tr td,
+  .rich-text-container table tbody tr td > * {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .rich-text-container table h4,
+  .rich-text-container table p {
+    margin-left: 0 !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .rate-list-index-container > h2 {
+    margin-left: 4rem !important;
+    margin-right: 4rem !important;
+  }
+  .rate-list-index-container > h2 > span,
+  .rate-list-index-container > h2,
+  .rich-text-container > div > figure > table > tbody > tr > td > h2,
+  .rich-text-container > div > figure > table > tbody > tr > td > ul > li > h2,
+  .rich-text-container > div > figure > table > tbody > tr > td > ol > li > h2,
+  .rich-text-container > div > figure > table > tbody > tr > td > ul > li > h2 > span,
+  .rich-text-container > div > figure > table > tbody > tr > td > ol > li > h2 > span {
+    font-size: 42px !important;
+    font-family: var(--secondary-family) !important;
+    line-height: 50px !important;
+  }
+  .BRANCH_EXPANDED__CONTAINER {
+    margin-left: unset !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .rate-list-index-container > h2 {
+    margin-left: unset !important;
+    margin-right: unset !important;
+  }
+  figure {
+    overflow: hidden !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rich-text-container {
+    padding-left: 136px !important;
+    padding-right: 136px !important;
+  }
+
+  .LAYOUT_MAIN .VERTICAL_DIVIDER_CONTAINER > .LINE_DIVIDER__CONTAINER {
+    padding-left: 136px !important;
+    padding-right: 136px !important;
+  }
+}

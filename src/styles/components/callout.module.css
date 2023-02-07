@@ -1,0 +1,207 @@
+.CALLOUT_WITH_GRADIENT__CONTAINER {
+  background: linear-gradient(
+    90.53deg,
+    #0edc9d -7.77%,
+    #39deab 22.24%,
+    #7de1c3 71.66%,
+    #b0e4d1 105.2%
+  ) !important;
+
+  background-color: white !important;
+  opacity: 1 !important;
+}
+
+/* .CALLOUT_WITH_GRADIENT__CONTAINER {
+  background: linear-gradient(
+    90.53deg,
+    #0edc9d -7.77%,
+    #39deab 22.24%,
+    #7de1c3 71.66%,
+    #b0e4d1 105.2%
+  ) !important;
+
+  background-color: white !important;
+  opacity: 1 !important;
+} */
+
+.CALLOUT_WITH_GRADIENT__CONTENT__HEADER__PRIMARY_TEXT__TITLE {
+  color: #0d281c !important;
+  font-family: var(--secondary-family) !important;
+  font-weight: 600 !important;
+  font-size: 62px !important;
+  line-height: 70px !important;
+}
+
+.CALLOUT_WITH_GRADIENT__CONTENT__HEADER__PRIMARY_TEXT__TITLE {
+  color: #0d281c !important;
+  font-family: var(--secondary-family) !important;
+  font-weight: 600 !important;
+  font-size: 62px !important;
+  line-height: 70px !important;
+}
+
+.CALLOUT_WITH_GRADIENT__CONTENT__HEADER__DESCRIPTION_TEXT {
+  margin: 65px 0 !important;
+  color: #000 !important;
+  font-family: var(--primary-family) !important;
+  font-weight: normal !important;
+  font-size: 22px !important;
+  line-height: 28px !important;
+}
+
+.CALLOUT_WITH_GRADIENT__CONTENT__HEADER__BUTTON {
+  font-family: var(--primary-family) !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16.41px !important;
+  background: transparent !important;
+  border: 1.5px solid #0d281c !important;
+  color: #0d281c !important;
+}
+
+.CALLOUT_MOBILE_APPS_GRADIENTS_DARK {
+  background-image: linear-gradient(
+    90.53deg,
+    #0edc9d -7.77%,
+    #39deab 22.24%,
+    #7de1c3 71.66%,
+    #b0e4d1 105.2%
+  ) !important;
+}
+
+.CALLOUT_MOBILE_APPS_GRADIENTS_DARK__DESCRIPTION {
+  line-height: 20px !important;
+}
+
+.CALLOUT_MOBILE_APPS_GRADIENTS_DARK__DESCRIPTION {
+  color: var(--grayscale-100-color) !important;
+  font-weight: 400 !important;
+}
+
+.CALLOUT_MOBILE_APPS_GRADIENTS_DARK__DESCRIPTION {
+  color: var(--grayscale-100-color) !important;
+  font-weight: 400 !important;
+}
+
+.CALLOUT_WITH_GRADIENT__H2 {
+  color: white !important;
+  font-family: var(--secondary-family) !important;
+  font-weight: 600 !important;
+  font-style: normal;
+  font-size: 26px !important;
+  line-height: 39px !important;
+  color: #fff !important;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.CALLOUT_WITH_GRADIENT__CONTENT__HEADER__BUTTON:hover {
+  border: 1.5px solid #374151 !important;
+  background: #374151 !important;
+  color: #fff !important;
+}
+
+.CALLOUT_SECTION__BUTTON {
+  background: var(--primary-150-color) !important;
+  border: 0px;
+  border-color: var(--primary-150-color) !important;
+}
+
+.CALLOUT_SECTION__BUTTON:hover {
+  background: transparent !important;
+  border: 1px solid var(--primary-150-color) !important;
+  color: var(--primary-150-color) !important;
+}
+
+.DIVIDER__CALLOUT__1,
+.DIVIDER__CALLOUT__2 {
+  margin: 0 !important;
+  height: 0 !important;
+}
+
+.CalloutMobileApps__title {
+  font-family: var(--secondary-family) !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 26px !important;
+  line-height: 39px !important;
+  color: var(--grayscale-800-color) !important;
+}
+
+.DYNAMIC_ZONES_PAGE > .tw-custom-container > div > .CALLOUT_WITH_GRADIENT {
+  background: #000 !important;
+}
+
+.LAYOUT_MAIN_LOAN_RATES .CALLOUT_WITH_GRADIENT__CONTAINER__BOX {
+  padding-left: 0 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .LAYOUT_MAIN_LOAN_RATES .CALLOUT_WITH_GRADIENT__H2 {
+    max-width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .CALLOUT_WITH_GRADIENT__CONTENT__HEADER__DESCRIPTION_TEXT {
+    margin: 40px 0 !important;
+  }
+  .CALLOUT_WITH_GRADIENT__CONTENT__HEADER__DESCRIPTION_CONTAINER {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+  }
+
+  .LAYOUT_MAIN_HOME .CALLOUT_WITH_GRADIENT__CONTAINER {
+    min-height: 725px !important;
+  }
+
+  /* .DYNAMIC_ZONES_PAGE .tw-container,
+  .DYNAMIC_ZONES_PAGE .custom-container,
+  .DYNAMIC_ZONES_PAGE .CALLOUT_WITH_GRADIENT__CONTAINER__BOX {
+    padding-left: var(--padding-lg) !important;
+    padding-right: var(--padding-lg) !important;
+  } */
+}
+
+@media only screen and (min-width: 1024px) {
+  .LAYOUT_MAIN_LOAN_RATES .CALLOUT_WITH_GRADIENT__H2 {
+    max-width: 100%;
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+
+  .CALLOUT_WITH_GRADIENT__CONTENT__HEADER__DESCRIPTION_TEXT {
+    padding-left: 125px !important;
+    padding-right: 125px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .CALLOUT_MOBILE_APPS_GRADIENTS_DARK__DIVIDER {
+    background: white !important;
+  }
+
+  .CALLOUT_MOBILE_APPS_GRADIENTS_DARK__HEADER {
+    border-left: solid 2px white !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .CALLOUT_MOBILE_APPS_GRADIENTS_DARK__CONTAINER {
+    padding-top: 40px;
+  }
+
+  .CALLOUT_WITH_GRADIENT__CONTENT__HEADER__PRIMARY_TEXT__TITLE {
+    font-size: 42px !important;
+    line-height: 50px !important;
+  }
+
+  .PRODUCT__GRADIENT__CONTAINER {
+    max-height: 350px !important;
+  }
+
+  .CALLOUT_SECTION {
+    text-align: center !important;
+  }
+}

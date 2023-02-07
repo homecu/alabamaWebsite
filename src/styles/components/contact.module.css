@@ -1,0 +1,373 @@
+.CONTACT_BACKGROUND .FORM_APPLICATION__FORM {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.LAYOUT_MAIN_CONTACT_US > .DYNAMIC_ZONES_PAGE > div > .HORIZONTAL_DIVIDER {
+  display: none;
+}
+
+/* --- Contact us page --- */
+.FORM_CONTAINER {
+  gap: 0 !important;
+}
+
+.CONTACT_BACKGROUND__MAIN_CONTACT__CONTAINER {
+  padding-top: 60px;
+}
+
+.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER div:last-child {
+  margin-top: 2rem !important;
+}
+
+.CONTACT_SIMPLE__CONTACT_TEXT {
+  margin-left: 4px !important;
+}
+
+.CONTACT_BACKGROUND {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+.MESSAGE_TITLE,
+.MAIN__CONTACT__TITLE,
+.BRANCH_EXPANDED__TITLE {
+  font-family: var(--secondary-family) !important;
+  color: var(--grayscale-100-color) !important;
+  line-height: 39px !important;
+  font-weight: 600 !important;
+}
+
+.BRANCH_EXPANDED__ICON {
+  position: relative !important;
+  filter: invert(23%) sepia(23%) saturate(5577%) hue-rotate(121deg) brightness(92%) contrast(87%) !important;
+}
+
+.BRANCH_EXPANDED {
+  margin-top: 60px !important;
+}
+.BRANCH_EXPANDED__CONTAINER__BOX__PRE .ICON[src="/images/icons/pin.svg"] {
+  content: url("../../../static/images/icons/pin-location.svg");
+}
+
+.BRANCH_EXPANDED_COMPONENT {
+  padding-left: 27px !important;
+  padding-right: 27px !important;
+  padding-bottom: 60px !important;
+}
+
+.MAIN__CONTACT__RECTANGLE {
+  background: var(--primary-color) !important;
+}
+
+.CONTACT_SIMPLE__CONTACT_TEXT {
+  margin-left: 5px !important;
+}
+
+div.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER.tw-mt-10
+  > div:nth-child(3)
+  > div
+  > .CONTACT_SIMPLE__CONTACT_TEXT {
+  margin-left: unset !important;
+}
+
+.MAIN_CONTACT_BOX__CONTENT,
+.CONTACT_SIMPLE__CONTACT_TEXT,
+.BRANCH_EXPANDED_PRE {
+  line-height: 20px !important;
+}
+
+.CONTACT_SIMPLE__TEXT {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #999999 !important;
+}
+
+.FORM_APPLICATION__BUTTON__BOX .login-button-Style {
+  border-radius: 0px !important;
+  font-size: 14px !important;
+  background-color: var(--primary-color) !important;
+  color: var(--grayscale-70-color) !important;
+}
+
+.FORM_APPLICATION__BUTTON__BOX > button:hover:enabled {
+  color: var(--primary-color) !important;
+  background-color: var(--grayscale-70-color) !important;
+  border: 1px solid var(--primary-color) !important;
+}
+
+.MAIN_OFFICE__TITLE {
+  font-family: var(--secondary-family) !important;
+  color: var(--primary-color) !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.CONTACT_SIMPLE__TITLE {
+  font-family: var(--primary-family) !important;
+  color: var(--primary-180-color) !important;
+  font-size: 16px !important;
+  margin-bottom: 5px !important;
+  font-weight: 500 !important;
+}
+
+.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER > div:first-child .CONTACT_SIMPLE__TITLE,
+.CONTACT_SIMPLE__TITLE {
+  font-family: var(--secondary-family) !important;
+  color: var(--grayscale-100-color) !important;
+  font-weight: 600 !important;
+}
+
+.BRANCH_EXPANDED__BEFORE_MAIN_OFFICE__CONTAINER__BOX__2 {
+  border-left: unset !important;
+}
+
+.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER > div {
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER > div:last-child {
+  margin-bottom: 0;
+}
+
+.OFFICE_HOUR_BOX__FIRST {
+  line-height: 16px !important;
+  color: var(--grayscale-70-color) !important;
+}
+
+.OFFICE_HOUR_BOX__SECOND {
+  line-height: 20px !important;
+}
+
+.CONTACT_SIMPLE {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER {
+  margin-top: 0 !important;
+}
+
+.GOOGLE_MAP {
+  min-height: auto !important;
+}
+
+.MAIN_OFFICE {
+  justify-content: start !important;
+}
+
+/* --- CMS components --- */
+.MAP__DIVIDER:last-child {
+  border-bottom: none;
+}
+.MAP__DIVIDER {
+  border-bottom: var(--primary-30-color) solid 1.5px;
+  margin: 100px 0;
+}
+
+.TEXT__ERROR__FIELD {
+  color: var(--ui-alert-color) !important;
+}
+
+.OFFICE_HOUR_BOX__THIRD,
+.CONTACT_SIMPLE__TEXT {
+  color: var(--grayscale-70-color) !important;
+}
+
+.FORM_CONTAINER {
+  width: 100% !important;
+}
+
+.FORM_CONTAINER__CONTAINER_INPUT > label > div > textarea {
+  position: relative;
+  top: 23px;
+}
+
+.INPUT_LABEL_TEXT,
+.LABEL__TEXTAREA {
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  color: #000000 !important;
+}
+
+.INPUT_TEXT__FIELD {
+  padding: 2px 0 0 25px !important;
+}
+
+.INPUT_TEXT__LABEL__TEXT {
+  line-height: 16.41px !important;
+}
+
+.LAYOUT_MAIN_CONTACT_US .FORM__INPUT__CONTAINER,
+.LAYOUT_MAIN_CONTACT_US .FORM_CONTAINER__CONTAINER_INPUT label {
+  background-color: var(--grayscale-0-color) !important;
+  border-radius: 0px !important;
+}
+
+.LAYOUT_MAIN_CONTACT_US .INPUT_BOX_CUSTOM_INPUT {
+  padding-left: 0px !important;
+}
+
+.BRANCH_EXPANDED__TITLE {
+  max-width: 40% !important;
+}
+
+.BRANCH_EXPANDED__CONTAINER_MAP {
+  height: 450px !important;
+  max-width: 570px !important;
+}
+.BRANCH_EXPANDED__CONTAINER_MAP {
+  align-self: end !important;
+}
+
+.BRANCH_EXPANDED__CONTAINER {
+  flex-direction: column !important;
+}
+.BRANCH_EXPANDED__CONTAINER__BOX__PRE {
+  flex-direction: row-reverse !important;
+  justify-content: flex-end !important;
+}
+.BRANCH_EXPANDED__CONTAINER_MAP {
+  margin-top: -10.7rem !important;
+}
+.BRANCH_EXPANDED_PRE {
+  margin-left: 8px !important;
+}
+
+.BRANCH_EXPANDED__TITLE {
+  margin-bottom: 30px !important;
+}
+
+@media (min-width: 1592px) {
+  .BRANCH_EXPANDED__CONTAINER_MAP {
+    margin-top: -8.3rem !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .BRANCH_EXPANDED_COMPONENT {
+    padding-left: 136px !important;
+    padding-right: 136px !important;
+    padding-bottom: unset !important;
+  }
+
+  .CONTACT_SIMPLE__CONTACT_TEXT,
+  .CONTACT_SIMPLE__TITLE {
+    line-height: unset !important;
+  }
+
+  .MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER > div > .CONTACT_SIMPLE {
+    display: flex !important;
+  }
+
+  .MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER > div:nth-child(3) > .CONTACT_SIMPLE {
+    display: block !important;
+  }
+
+  .MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER > div {
+    margin-bottom: -5px;
+  }
+  div.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER.tw-mt-10 > div:nth-child(3) > div {
+    margin-top: 1.2rem !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .BRANCH_EXPANDED__CONTAINER_MAP {
+    margin-top: -12.5rem !important;
+  }
+  .FORM_CONTAINER__CONTAINER_INPUT {
+    grid-column: span 2 / span 2 !important;
+  }
+}
+
+/* Safari 10.1+ */
+@media not all and (min-resolution: 0.001dpcm) {
+  .MEMBER_FEEDBACK__INPUT > select {
+    margin-top: 0px !important;
+  }
+
+  .INPUT_SELECT__LABEL__TEX {
+    padding: 14px 3px !important;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .BRANCH_EXPANDED__CONTAINER_MAP {
+    margin-right: unset !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .BRANCH_EXPANDED__TITLE {
+    max-width: 100% !important;
+  }
+  .BRANCH_EXPANDED__CONTAINER_MAP {
+    max-width: unset !important;
+  }
+
+  .BRANCH_EXPANDED__BEFORE_MAIN_OFFICE__CONTAINER__BOX {
+    margin-bottom: 2.5rem !important;
+  }
+
+  .BRANCH_EXPANDED__TITLE {
+    margin-bottom: 13px !important;
+  }
+
+  .GOOGLE_MAP {
+    min-height: 550px !important;
+  }
+
+  .BRANCH_EXPANDED {
+    margin-top: 4rem !important;
+  }
+
+  .CONTACT_BACKGROUND__MAIN_CONTACT__CONTAINER {
+    padding-top: 4rem;
+  }
+
+  .BRANCH_EXPANDED__BEFORE_MAIN_OFFICE__CONTAINER__BOX__2 {
+    border-left: none !important;
+    padding-left: 0 !important;
+  }
+
+  .BRANCH_EXPANDED__CONTAINER__BOX__PRE {
+    margin-top: 20px;
+  }
+
+  .CONTACT_BACKGROUND__MESSAGE__CONTAINER {
+    width: 100% !important;
+  }
+}
+
+.BRANCH_EXPANDED__CONTAINER__BOX__PRE {
+  text-align: left !important;
+}
+@media only screen and (max-width: 1600px) {
+  .BRANCH_EXPANDED__CONTAINER_MAP {
+    margin-right: unset !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .BRANCH_EXPANDED__CONTAINER_MAP {
+    width: 100% !important;
+  }
+  .BRANCH_EXPANDED__CONTAINER_MAP {
+    margin-top: unset !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .BRANCH_EXPANDED__BEFORE_MAIN_OFFICE__CONTAINER {
+    margin-top: 12px !important;
+  }
+}
+
+@media (min-width: 768px) {
+}

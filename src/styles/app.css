@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@300;500;600&display=swap");
+
+/* -------------------------- MODULES IMPORTS ---------------------------------*/
+@import url("components/layout/header.module.css");
+@import url("components/layout/footer.module.css");
+@import url("components/callout.module.css");
+@import url("components/products.module.css");
+@import url("components/hero.module.css");
+@import url("components/compress-component.module.css");
+@import url("components/feature.module.css");
+@import url("components/rich-text.module.css");
+@import url("components/page-title.module.css");
+@import url("components/search.module.css");
+@import url("components/contact.module.css");
+@import url("components/confirmation-modal.module.css");
+@import url("components/rate-list.module.css");
+@import url("components/login.module.css");
+
+:root {
+  --bl-color-primary-6: #fdfbf2;
+  --bl-color-primary-30: #b3cae1;
+  --bl-color-primary-50: #80a6cc;
+  --bl-color-primary-80: #3371ae;
+  --bl-color-primary: #e4b72a;
+  --bl-color-primary-110: #00468b;
+  --bl-color-primary-150: #00274d;
+  --bl-color-primary-180: #00101f;
+  --bl-color-grayscale-0: #ffffff;
+  --bl-color-grayscale-6: #f0f0f0;
+  --bl-color-grayscale-20: #cccccc;
+  --bl-color-grayscale-30: #b2b2b2;
+  --bl-color-grayscale-50: #7f7f7f;
+  --bl-color-grayscale-70: #4c4c4c;
+  --bl-color-grayscale-80: #333333;
+  --bl-color-grayscale-100: #000000;
+  --bl-color-opacity-grayscale-6: rgba(0, 0, 0, 0.06);
+  --bl-color-ui-alert: #ea5050;
+  --bl-color-ui-alert-faded: #fff8f8;
+}
+
+body {
+  @apply bl-font-primary;
+  @apply bl-text-base;
+  @apply bl-text-grayscale-100;
+  cursor: default;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* --- @hellobuild/blossom-websites-core-package CSS --- */
+
+/* ------------------------------- Home page -------------------------------- */
+
+.tw-custom-container > .HORIZONTAL_DIVIDER {
+  margin-bottom: 30px !important;
+}
+
+* {
+  scroll-behavior: smooth !important;
+  scroll-margin-top: 100px !important;
+}
+
+@media (min-width: 768px) {
+  .DYNAMIC_ZONES_PAGE .tw-container,
+  .DYNAMIC_ZONES_PAGE .custom-container {
+    padding-left: var(--padding-sm) !important;
+    padding-right: var(--padding-sm) !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .DYNAMIC_ZONES_PAGE .tw-container,
+  .DYNAMIC_ZONES_PAGE .custom-container {
+    padding-left: var(--padding-xl) !important;
+    padding-right: var(--padding-xl) !important;
+  }
+}
+
+.DYNAMIC_ZONES_PAGE .tw-container,
+.DYNAMIC_ZONES_PAGE .custom-container {
+  padding-left: var(--padding-lg) !important;
+  padding-right: var(--padding-lg) !important;
+}
+
+.DYNAMIC_ZONES_PAGE .swiper-button-next,
+.DYNAMIC_ZONES_PAGE .swiper-button-prev {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .PRODUCT__COLLECTION__CONTAINER.tw-container {
+    padding: 0 20px !important;
+  }
+  .PRODUCT__GRADIENT__CONTAINER__PRODUCT__GRADIENT__TITLE {
+    padding: 0px 5px !important;
+  }
+  * {
+    scroll-margin-top: 113.5px !important;
+  }
+}

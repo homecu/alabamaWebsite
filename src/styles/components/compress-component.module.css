@@ -1,0 +1,121 @@
+.COMPRESSED_COMPONENT__TITLE__SECONDARY_TEXT,
+.COMPRESSED_COMPONENT__TRANSPARENT_TITLE__SECONDARY_TEXT {
+  font-family: var(--secondary-family) !important;
+  font-size: 26px !important;
+  font-weight: normal !important;
+  color: #5c2506 !important;
+}
+
+.COMPRESSED_COMPONENT__TRANSPARENT__DESCRIPTION {
+  font-family: var(--primary-family) !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  text-align: center !important;
+}
+
+.COMPRESS_COMPONENT_MOBILE__MYSWIPER .swiper-button-prev,
+.COMPRESS_COMPONENT_MOBILE__MYSWIPER .swiper-button-next {
+  /* top: 71% !important; */
+  background: -webkit-linear-gradient(var(--bl-color-primary), var(--bl-color-primary-150));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.COMPRESSED_COMPONENT__TRANSPARENT__CONTAINER {
+  opacity: 1 !important;
+}
+
+.COMPRESS_COMPONENT_MOBILE_TITLE {
+  /* background: -webkit-linear-gradient(right, #00274d, #004e9a) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important; */
+  /* position: absolute; */
+  top: 67%;
+  width: 100%;
+  right: 0px;
+}
+
+.COMPRESS_COMPONENT_MOBILE__DESCRIPTION_CONTAINER {
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+
+.COMPRESS_COMPONENT_MOBILE__DESCRIPTION {
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 16.41px !important;
+  color: #000000 !important;
+}
+
+/* .COMPRESS_COMPONENT_MOBILE__BUTTON {
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16.41px !important;
+  color: #00274d !important;
+} */
+
+.COMPRESSED_COMPONENT__TRANSPARENT__BUTTON,
+.COMPRESS_COMPONENT_MOBILE__BUTTON {
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 16.41px !important;
+  color: #5c2506 !important;
+  border-color: #5c2506 !important;
+  background: transparent !important;
+}
+
+.COMPRESS_COMPONENT_MOBILE__BUTTON:hover {
+  color: white !important;
+  background-color: #5c2506 !important;
+}
+
+.COMPRESSED_COMPONENT__TRANSPARENT__BUTTON:hover {
+  color: white !important;
+  background-color: #5c2506 !important;
+}
+
+.COMPRESS_COMPONENT_MOBILE__MYSWIPER {
+  color: linear-gradient(264.35deg, #00274d 2.57%, #004e9a 95.51%) !important;
+}
+
+.COMPRESSED_COMPONENT__TITLE__SECONDARY_TEXT,
+.COMPRESS_COMPONENT_MOBILE_TITLE {
+  /* background: -webkit-linear-gradient(right, #00274d, #004e9a) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important; */
+  font-family: Poppins !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 26px !important;
+  line-height: 39px !important;
+  text-align: center !important;
+  color: #5c2506 !important;
+}
+.COMPRESSED_COMPONENT__TRANSPARENT_TITLE__SECONDARY_TEXT {
+  /* background: -webkit-linear-gradient(right, #00274d, #004e9a) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important; */
+  font-family: Poppins !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 26px !important;
+  line-height: 39px !important;
+  text-align: center !important;
+}
+
+/* .COMPRESSED_COMPONENT__TITLE__SECONDARY_TEXT {
+  color: #5c2506 !important;
+} */
+
+.COMPRESS_COMPONENT_MOBILE .swiper-button-next,
+.COMPRESS_COMPONENT_MOBILE .swiper-button-prev {
+  display: block !important;
+}

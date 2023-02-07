@@ -1,0 +1,71 @@
+.MODAL__CONTAINER {
+  border-radius: 10px !important;
+}
+
+.HEADER_LOGIN__TITLE {
+  color: #0e1a0c !important;
+  font-weight: 600 !important;
+  line-height: 39px !important;
+  font-family: var(--secondary-family) !important;
+  font-size: 26px !important;
+}
+
+.HEADER_LOGIN__INPUT {
+  border-radius: 0px !important;
+  background-color: #f0f0f0 !important;
+  padding: 0 0.75rem !important;
+}
+
+.LOGIN__MODAL__FORGOT_A,
+.LOGIN__MODAL__ENROLL_A {
+  color: var(--gray-700-color) !important;
+}
+
+.HEADER_LOGIN__BUTTON {
+  background: #106828 !important;
+  border-color: #106828 !important;
+  color: var(--grayscale-0-color) !important;
+}
+
+.HEADER_LOGIN__BUTTON:hover:enabled {
+  background: transparent !important;
+  border-color: #106828 !important;
+  color: #106828 !important;
+}
+
+.CUSTOM_BUTTON_PRIMARY {
+  background: #106828 !important;
+  padding: 7px 20px !important;
+  border-radius: 0 !important;
+  border-color: #106828 !important;
+  border-width: 2px !important;
+  color: var(--grayscale-0-color) !important;
+}
+
+.CUSTOM_BUTTON_PRIMARY:hover {
+  color: #106828 !important;
+  background: transparent !important;
+}
+
+.LOGIN__MODAL__ENROLL_A {
+  color: var(--gray-700-color) !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 16.41px !important;
+}
+
+.HEADER_LOGIN__FORGOT_LOGIN_ID {
+  margin-top: 0.7rem !important;
+  justify-content: space-between !important;
+}
+
+.LOGIN__MODAL__FORGOT_A {
+  color: var(--gray-700-color) !important;
+}
+.LOGIN__MODAL__FORGOT_A {
+  color: #374151 !important;
+  font-family: var(--primary-family) !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}

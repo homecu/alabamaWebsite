@@ -1,0 +1,102 @@
+/* search  */
+.Search_Input {
+  background: #f0f4f9 !important;
+  border: none !important;
+  border-radius: 0 !important ;
+  color: #000000 !important;
+}
+
+.SEARCH_TITLE__RECTANGLE {
+  width: 100% !important;
+  height: 2px !important;
+  left: 235px !important;
+  top: 394.5px !important;
+  border: 0 !important;
+  background-color: #3fc78e !important;
+}
+
+.SEARCH_ICON {
+  position: relative !important;
+  padding-bottom: 10px !important;
+}
+
+.SEARCH_RESULT_TITLE {
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 22px !important;
+  line-height: 28px !important;
+  color: #000000 !important;
+  padding-top: 50px !important;
+}
+
+.SEARCH_RESULT_DESCRIPTION {
+  padding-top: 4px !important;
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  color: var(--grayscale-70-color) !important;
+}
+
+.SEARCH_PAGE_TITLE {
+  display: none !important;
+}
+
+.INPUT_SEARCH_ICON {
+  position: absolute;
+  left: 14px;
+  top: 19px;
+}
+
+.INPUT_X_ICON {
+  position: absolute;
+  right: 12px;
+  top: 15px;
+}
+
+.INPUT_BOX_CUSTOM_INPUT {
+  padding-left: 30px !important;
+}
+
+.SEARCH_CONTAINER > .FORM__INPUT__CONTAINER {
+  background: #f3fcf8 !important;
+  height: 60px !important;
+}
+
+.SEARCH_FOUND_TEXT_1 {
+  color: var(--grayscale-70-color) !important;
+  font-size: 14px !important;
+}
+
+.LAYOUT_MAIN_SEARCH .PAGE_TITLE__TITLE {
+  font-weight: 600 !important;
+  size: 42px !important;
+  line-height: 70px !important;
+  font-family: "Poppins" !important;
+  color: #206347 !important;
+  font-style: normal !important;
+}
+
+.LAYOUT_MAIN_SEARCH .PAGE_TITLE {
+  margin-top: 100px !important;
+}
+
+.LAYOUT_MAIN_SEARCH .PAGE_TITLE__RECTANGLE {
+  display: none !important;
+}
+
+@media (max-width: 1023px) {
+  .LAYOUT_MAIN_SEARCH .PAGE_TITLE__TITLE {
+    font-weight: 600 !important;
+    size: 26px !important;
+    line-height: 39px !important;
+    font-family: "Poppins" !important;
+    color: #206347 !important;
+    font-style: normal !important;
+  }
+  .LAYOUT_MAIN_SEARCH .PAGE_TITLE {
+    margin-top: 60px !important;
+  }
+}

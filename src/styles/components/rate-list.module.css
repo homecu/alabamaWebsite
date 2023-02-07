@@ -1,0 +1,12 @@
+.RATE_LIST__SEPARATOR {
+  margin-top: 0.5rem !important;
+  background: linear-gradient(360deg, #552906 -53.51%, #aa5f07 53.51%) !important;
+}
+
+.RATE_LIST__RATE {
+  font-size: 42px !important;
+}
+
+.RATE_LIST__RIGHT_TEXT {
+  color: #725b15 !important;
+}

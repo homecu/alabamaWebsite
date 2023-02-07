@@ -1,0 +1,36 @@
+module.exports = {
+  parser: "babel-eslint",
+  env: {
+    browser: true,
+    es6: true,
+    node: true,
+  },
+  extends: ["airbnb", "prettier", "prettier/react", "plugin:react-hooks/recommended"],
+  plugins: ["prettier", "react-hooks"],
+  globals: {
+    __PATH_PREFIX__: true,
+    document: true,
+    fetch: true,
+    process: true,
+    window: true,
+  },
+  rules: {
+    "arrow-body-style": 0,
+    "import/no-unresolved": 0,
+    "no-alert": 0,
+    "no-console": 0,
+    "no-nested-ternary": 0,
+    "no-use-before-define": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-fragments": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/no-array-index-key": 0,
+    "react/no-danger": 0,
+    "react/prop-types": 0,
+    "react/require-default-props": 0,
+
+    "import/prefer-default-export": 1,
+    "no-param-reassign": 1,
+    "no-unreachable": 1,
+  },
+};
