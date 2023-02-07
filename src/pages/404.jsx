@@ -1,3 +1,3 @@
-import { Page404 } from "@hellobuild/blossom-websites-core-package";
+import { Page404 } from "@homecu/blossom-websites-core-package";
 
 export default Page404;
