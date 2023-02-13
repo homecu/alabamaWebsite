@@ -43,7 +43,7 @@
 
 .FEATURE_COLLAPSE_ITEM_CONTENT__BUTTON {
   background-color: var(--grayscale-0-color) !important;
-  color: var(--grayscale-100-color) !important;
+  color: var(--primary-110-color) !important;
   border-color: var(--grayscale-0-color) !important;
 }
 
