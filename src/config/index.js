@@ -1,7 +1,7 @@
 const templateVariantSettings = {
   header: "COMPRESSED",
   homePage: "HomeTemplateV9",
-  websiteName: "Greater Centennial FCU",
+  websiteName: "Alabama Postal CU",
   speedBump: {
     borderWithRadious: true,
   },

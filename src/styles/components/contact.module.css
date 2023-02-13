@@ -17,10 +17,6 @@
   padding-top: 60px;
 }
 
-.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER div:last-child {
-  margin-top: 2rem !important;
-}
-
 .CONTACT_SIMPLE__CONTACT_TEXT {
   margin-left: 4px !important;
 }
@@ -41,7 +37,6 @@
 
 .BRANCH_EXPANDED__ICON {
   position: relative !important;
-  filter: invert(23%) sepia(23%) saturate(5577%) hue-rotate(121deg) brightness(92%) contrast(87%) !important;
 }
 
 .BRANCH_EXPANDED {
@@ -65,12 +60,12 @@
   margin-left: 5px !important;
 }
 
-div.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER.tw-mt-10
+/* div.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER.tw-mt-10
   > div:nth-child(3)
   > div
   > .CONTACT_SIMPLE__CONTACT_TEXT {
   margin-left: unset !important;
-}
+} */
 
 .MAIN_CONTACT_BOX__CONTENT,
 .CONTACT_SIMPLE__CONTACT_TEXT,
@@ -147,7 +142,7 @@ div.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER.tw-mt-10
 }
 
 .MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER {
-  margin-top: 0 !important;
+  margin-top: 2rem !important;
 }
 
 .GOOGLE_MAP {
@@ -258,16 +253,16 @@ div.MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER.tw-mt-10
 
   .CONTACT_SIMPLE__CONTACT_TEXT,
   .CONTACT_SIMPLE__TITLE {
-    line-height: unset !important;
+    line-height: 20px !important;
   }
 
   .MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER > div > .CONTACT_SIMPLE {
     display: flex !important;
   }
-
+  /* 
   .MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER > div:nth-child(3) > .CONTACT_SIMPLE {
     display: block !important;
-  }
+  } */
 
   .MAIN_OFFICE__CONTACT_SIMPLE__CONTAINER > div {
     margin-bottom: -5px;
