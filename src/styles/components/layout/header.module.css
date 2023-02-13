@@ -2,9 +2,14 @@ header {
   padding: 0 !important;
 }
 
+.HEADER_DYNAMIC_CONTAINER__NAV__CONTAINER__CONTENT__MENU > .login-button-Style,
+.HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX__MENU > .login-button-Style {
+  display: none !important;
+}
+
 .Header__logo {
   width: auto !important;
-  height: 108px !important;
+  height: 70px !important;
 }
 
 .HERO_DYNAMIC_DESKTOP {
@@ -17,7 +22,7 @@ header {
 
 .TOAST_MESSAGE_CONTAINER {
   min-height: 117px;
-  background: #062910 !important;
+  background: var(--primary-180-color) !important;
 }
 
 .TOAST_TEXT {
@@ -395,7 +400,7 @@ header {
 }
 
 .DROPDOWN__CONTAINER__ACTIVE_TOP_NAV {
-  border-bottom: solid 3px var(--secondary-color) !important;
+  border-bottom: solid 3px var(--primary-180-color) !important;
   margin-left: 2rem !important;
   margin-right: 2rem !important;
 }
@@ -448,13 +453,13 @@ header {
   font-size: 14px !important;
   line-height: 16.41px !important;
   font-weight: 500 !important;
-  border: 2px solid var(--secondary-color) !important;
-  background: var(--secondary-color) !important;
+  border: 2px solid var(--primary-color) !important;
+  background: var(--primary-color) !important;
 }
 
 .DROPDOWN__CONTAINER__ACTIVE_TOP_NAV__BUTTON:hover {
   background: transparent !important;
-  color: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
 }
 
 .CUSTOM_LINK_SEARCH_ITEM,
@@ -520,14 +525,17 @@ header {
 .HEADER_MOBILE_COMPRESSED_ACTIVE.HEADER_MOBILE_SCROLLED {
   background: var(--grayscale-0-color) !important;
 }
-.HEADER_DYNAMIC_CONTAINER_SCROLLED .HEADER_DYNAMIC_CONTAINER__NAV__CONTAINER {
+.HEADER_DYNAMIC_CONTAINER_SCROLLED .HEADER_DYNAMIC_CONTAINER__NAV__CONTAINER,
+.HEADER_DYNAMIC_CONTAINER_NO_SCROLLED .HEADER_DYNAMIC_CONTAINER__NAV__CONTAINER,
+.HEADER_MOBILE_SCROLLED .HEADER_MOBILE_COMPRESSED__CONTAINER,
+.HEADER_MOBILE_NO_SCROLLED .HEADER_MOBILE_COMPRESSED__CONTAINER {
   backdrop-filter: blur(14px) !important;
   -webkit-backdrop-filter: blur(14px) !important;
 }
 
 .HEADER_DYNAMIC_CONTAINER__NAV__CONTAINER__CONTENT,
 .HEADER_DYNAMIC_CONTAINER {
-  min-height: 140px !important;
+  min-height: 100px !important;
 }
 
 .HEADER_DYNAMIC_CONTAINER_SCROLLED
@@ -625,8 +633,9 @@ header {
   > .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX
   > .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX__MENU
   > .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX__MENU__ICON_BOX
-  > .HEADER_MOBILE_CUSTOMICON_NO_SCROLLED {
+  > .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX__MENU__ICON_BOX__ICON {
   content: url("../../../../static/images/icons/navigation-menu.svg") !important;
+  filter: none !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -708,6 +717,11 @@ header {
     font-size: 20px !important;
     line-height: 24px !important;
     color: inherit !important;
+  }
+
+  .Header__logo {
+    width: auto !important;
+    height: 50px !important;
   }
 
   .HEADER_MOBILE_DEFAULT__OPEN .HEADER_MOBILE_DEFAULT__CONTAINER__CONTENT__BOX__MENU__ITEM {

@@ -1,5 +1,5 @@
 .PRODUCT__GRADIENT__CONTAINER::after {
-  background: linear-gradient(180deg, #106828 -45.75%, #9dba15 227.37%) !important;
+  background: linear-gradient(180.06deg, #b93b46 0.08%, #54050c 99.99%) !important;
   border-radius: 10px !important;
   filter: unset;
   opacity: unset !important;
@@ -7,7 +7,7 @@
 }
 
 .PRODUCT__GRADIENT__CONTAINER:hover::after {
-  opacity: 0.8 !important;
+  opacity: 0.5 !important;
   filter: brightness(50%);
 }
 
@@ -59,7 +59,7 @@
   border-radius: 0% !important;
   background-color: var(--grayscale-0-color) !important;
   border: 1.5px solid var(--grayscale-0-color) !important;
-  color: var(--primary-180-color) !important;
+  color: var(--primary-110-color) !important;
   margin-bottom: 50px !important;
 }
 
