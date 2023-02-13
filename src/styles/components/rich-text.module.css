@@ -170,7 +170,8 @@ figure > table > tbody > tr > td > a {
 }
 
 .LINE_DIVIDER__ON {
-  background: var(--primary-150-color) !important;
+  background: var(--secondary-color) !important;
+  height: 3px !important;
 }
 
 @media only screen and (max-width: 768px) {
