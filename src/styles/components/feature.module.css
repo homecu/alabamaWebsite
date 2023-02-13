@@ -1,9 +1,9 @@
 .FEATURE_V3__DESKTOP {
   height: 366px !important;
-  background-size: 2600px !important;
+  background-size: 1600px !important;
   background-position: -291px -239px !important;
   background-repeat: no-repeat !important;
-  transform: scaleX(-1) !important;
+  /* transform: scaleX(-1) !important; */
 }
 
 .FEATURE_V3__DESKTOP__TITLE {
