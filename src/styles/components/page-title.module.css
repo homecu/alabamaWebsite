@@ -15,8 +15,6 @@
 
 .PAGE_TITLE {
   padding-top: 110px;
-  padding-right: 136px !important;
-  padding-left: 136px !important;
 }
 
 .PAGE_TITLE__TITLE {
@@ -29,6 +27,15 @@
 @media (max-width: 1023px) {
   .PAGE_TITLE {
     padding-top: 50px !important;
+    padding-right: 27px !important;
+    padding-left: 27px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .PAGE_TITLE {
+    padding-right: 136px !important;
+    padding-left: 136px !important;
   }
 }
 
