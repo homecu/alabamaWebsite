@@ -710,6 +710,17 @@ header {
     padding-right: 2rem !important;
   }
 
+  .LAYOUT_MAIN_HOME
+    .HEADER_MOBILE_COMPRESSED_ACTIVE
+    > .HEADER_MOBILE_COMPRESSED__CONTAINER
+    > .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT
+    > .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX
+    > .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX__MENU
+    > .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX__MENU__ICON_BOX
+    > .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX__MENU__ICON_BOX__ICON.ICON {
+    content: url("../../../../static/images/icons/navigation-menu-scroll.svg") !important;
+  }
+
   .HeaderMobile-LinkNormal-DEFAULT {
     font-family: var(--secondary-family) !important;
     font-style: normal !important;
