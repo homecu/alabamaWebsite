@@ -12,6 +12,11 @@ header {
   height: 70px !important;
 }
 
+.HEADER_DYNAMIC_CONTAINER__NAV__CONTAINER,
+.HEADER_MOBILE_COMPRESSED__CONTAINER {
+  background: rgba(255, 255, 255, 0.85) !important;
+}
+
 .HERO_DYNAMIC_DESKTOP {
   background-position: center !important;
 }
@@ -438,10 +443,6 @@ header {
   padding-right: 0px !important;
 }
 
-.EXPANDED_BUTTON__ICON {
-  filter: none !important;
-}
-
 .HEADER_DESKTOP_DEFAULT {
   min-height: 100px !important;
 }
@@ -529,8 +530,8 @@ header {
 .HEADER_DYNAMIC_CONTAINER_NO_SCROLLED .HEADER_DYNAMIC_CONTAINER__NAV__CONTAINER,
 .HEADER_MOBILE_SCROLLED .HEADER_MOBILE_COMPRESSED__CONTAINER,
 .HEADER_MOBILE_NO_SCROLLED .HEADER_MOBILE_COMPRESSED__CONTAINER {
-  backdrop-filter: blur(14px) !important;
-  -webkit-backdrop-filter: blur(14px) !important;
+  backdrop-filter: blur(7px) !important;
+  -webkit-backdrop-filter: blur(7px) !important;
 }
 
 .HEADER_DYNAMIC_CONTAINER__NAV__CONTAINER__CONTENT,
@@ -635,7 +636,6 @@ header {
   > .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX__MENU__ICON_BOX
   > .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX__MENU__ICON_BOX__ICON {
   content: url("../../../../static/images/icons/navigation-menu.svg") !important;
-  filter: none !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -747,11 +747,6 @@ header {
   .HEADER_MOBILE_CUSTOMICON_NO_SCROLLED {
     filter: invert() grayscale(1) saturate(0) !important;
   } */
-
-  .LAYOUT_MAIN_HOME .HEADER_MOBILE_CUSTOMICON_NO_SCROLLED {
-    filter: none !important;
-  }
-
   .HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT {
     box-shadow: 0 2px 24px rgba(0, 0, 0, 0.07) !important;
   }
@@ -797,4 +792,9 @@ header {
   button.default-nav > svg:last-child {
     position: relative;
   }
+}
+
+.EXPANDED_BUTTON__ICON,
+.HEADER_MOBILE_COMPRESSED__CONTAINER__CONTENT__BOX__MENU__ICON_BOX__ICON {
+  filter: invert(90%) sepia(26%) saturate(6165%) hue-rotate(336deg) brightness(72%) contrast(110%) !important;
 }
